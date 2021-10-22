@@ -5,11 +5,11 @@ class R015_Map extends Component {
     componentDidMount() {
         var Map_Arr = [3, 2, 8, 8]
         let Map_newArr = Map_Arr.map(x => {return x})  // Map_Arr의 배열을 순회하며 Map_newArr 배열 값으로 맵핑
-        console.log("1. Map_newArr : [" +Map_newArr+ "]")
+        console.log(`1. Map_newArr : [${Map_newArr}]`)
 
         // Map_Arr의 배열을 순회하며 값*2 한 값을 Map_mulittiArr으로 맵핑
         let Map_mulitiArr = Map_Arr.map(x =>  {return x*2})
-        console.log("2. Map_mulitiArr : [" +Map_mulitiArr+ "]")
+        console.log(`2. Map_mulitiArr : [${Map_mulitiArr}]`)
 
         var ObjArray = [{key: 'react', value: '200'},
                         {key: '리액트', value: "TwoHundred"}]

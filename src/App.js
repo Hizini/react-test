@@ -11,7 +11,8 @@ import Es6 from './R009/R009_Es6';
 import Variable from './R010/R010_Variable';
 import SpreadOperator from './R011/R011_SpreadOperator';
 import ClassPrototype from './R012/R012_Class&Prototype';
-
+import ForEach from './R014/R014_ForEach';
+import Map from './R015/R015_Map';
 
 function App() {
   const arr = ['봄', '여름', '가을', '겨울']
@@ -30,6 +31,8 @@ function App() {
     <Variable/>
     <SpreadOperator/>
     <ClassPrototype/>
+    <ForEach/>
+    <Map/>
   </div>
   )
 }
