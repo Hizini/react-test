@@ -10,6 +10,7 @@ import LifecycleEx6 from './EX/LifecycleEx1';
 import Es6 from './R009/R009_Es6';
 import Variable from './R010/R010_Variable';
 import SpreadOperator from './R011/R011_SpreadOperator';
+import ClassPrototype from './R012/R012_Class&Prototype';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
     <Es6/>
     <Variable/>
     <SpreadOperator/>
+    <ClassPrototype/>
   </div>
   )
 }
