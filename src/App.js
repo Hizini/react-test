@@ -20,6 +20,11 @@ import './App.css';
 // import PropsRequired from './R021/R021_PropsRequired';
 // import PropsDefault from './R022/R022_PropsDefault';
 // import PropsNode from './R023/R023_PropsNode';
+import R024_ReactState from './R024/R024_ReactState';
+import R025_SetState from './R025/R025_SetState';
+import R032_Fragments from './R032/R032_Fragments';
+import R033_ReturnMap from './R033/R033_ReturnMap';
+
 
 function App() {
   const arr = ['봄', '여름', '가을', '겨울']
@@ -57,6 +62,10 @@ function App() {
       <PropsRequired ReactNumber={200} />
       <PropsDefault ReactNumber={200} />
       <PropsNode><span>node from App.js</span></PropsNode> */}
+      <R024_ReactState reactString={'react'} />
+      <R025_SetState />
+      <R032_Fragments />
+      <R033_ReturnMap />
     </div>
   )
 }
