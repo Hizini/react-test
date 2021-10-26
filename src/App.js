@@ -31,7 +31,8 @@ import './App.css';
 // import R070_onMouseOut from './R070/R070_onMouseOut';
 // import R071_Onkey from './R071/R071_Onkey';
 // import R072_onSubmit from './R072/R072_onSubmit';
-
+import R061_AxiosGet from './R061/R061_AxiosGet';
+import R062_AxiosPost from './R062/R062_AxiosPost';
 
 function App() {
   const arr = ['봄', '여름', '가을', '겨울']
@@ -80,6 +81,8 @@ function App() {
       <R070_onMouseOut/>
       <R071_Onkey/>
       <R072_onSubmit/> */}
+      <R061_AxiosGet/>
+      <R062_AxiosPost/>
     </div>
   )
 }
