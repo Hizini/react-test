@@ -20,10 +20,17 @@ import './App.css';
 // import PropsRequired from './R021/R021_PropsRequired';
 // import PropsDefault from './R022/R022_PropsDefault';
 // import PropsNode from './R023/R023_PropsNode';
-import R024_ReactState from './R024/R024_ReactState';
-import R025_SetState from './R025/R025_SetState';
-import R032_Fragments from './R032/R032_Fragments';
-import R033_ReturnMap from './R033/R033_ReturnMap';
+// import R024_ReactState from './R024/R024_ReactState';
+// import R025_SetState from './R025/R025_SetState';
+// import R032_Fragments from './R032/R032_Fragments';
+// import R033_ReturnMap from './R033/R033_ReturnMap';
+// import R066_onClick from './R066/R066_onClick';
+// import R067_onChange from './R067/R067_onChange';
+// import R068_onMouseMove from './R068/R068_onMouseMove';
+// import R069_onMouseOver from './R069/R069_onMouseOver';
+// import R070_onMouseOut from './R070/R070_onMouseOut';
+// import R071_Onkey from './R071/R071_Onkey';
+// import R072_onSubmit from './R072/R072_onSubmit';
 
 
 function App() {
@@ -62,10 +69,17 @@ function App() {
       <PropsRequired ReactNumber={200} />
       <PropsDefault ReactNumber={200} />
       <PropsNode><span>node from App.js</span></PropsNode> */}
-      <R024_ReactState reactString={'react'} />
+      {/* <R024_ReactState reactString={'react'} />
       <R025_SetState />
       <R032_Fragments />
-      <R033_ReturnMap />
+      <R033_ReturnMap /> */}
+      {/* <R066_onClick/>
+      <R067_onChange/>
+      <R068_onMouseMove/>
+      <R069_onMouseOver/>
+      <R070_onMouseOut/>
+      <R071_Onkey/>
+      <R072_onSubmit/> */}
     </div>
   )
 }
