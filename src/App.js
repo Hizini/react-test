@@ -31,58 +31,17 @@ import './App.css';
 // import R070_onMouseOut from './R070/R070_onMouseOut';
 // import R071_Onkey from './R071/R071_Onkey';
 // import R072_onSubmit from './R072/R072_onSubmit';
-import R061_AxiosGet from './R061/R061_AxiosGet';
-import R062_AxiosPost from './R062/R062_AxiosPost';
+// import R061_AxiosGet from './R061/R061_AxiosGet';
+// import R062_AxiosPost from './R062/R062_AxiosPost';
+import TestComponent from './i18n/i18nTest'
 
 function App() {
-  const arr = ['봄', '여름', '가을', '겨울']
+  // const arr = ['봄', '여름', '가을', '겨울']
   return (
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
-      {/* <ImportConponent></ImportConponent>
-      <LifecycleEx></LifecycleEx>
-      <LifecycleEx2></LifecycleEx2>
-      <LifecycleEx3 prop_value = 'FromApp.js' />
-      <LifecycleEx4 prop_value = 'FromApp2.js' /> 
-      <LifecycleEx5 prop_value='FromApp3.js' />
-      <LifecycleEx6></LifecycleEx6>
-      <Es6 />
-      <Variable />
-      <SpreadOperator />
-      <ClassPrototype />
-      <ForEach />
-      <Map />
-
-      props 변수 props_val에 문자열 저장
-      <Props props_val="This is Props" />
-      <PropsDatatype
-        String="react"
-        Number={200}
-        Boolean={1 == 1}
-        Array={[0, 1, 8]}
-        ObjectJson={{ react: "리액트", twohundred: "200" }}
-        Function={console.log("FunctionProps : function!")}
-      />
-      <PropsBoolean BooleanTrueFalse={false} />
-      <PropsBoolean BooleanTrueFalse />
-      <PropsObjVal ObjectJson={{ react: "리액트", twohundred: "200" }} />
-      <PropsRequired ReactNumber={200} />
-      <PropsDefault ReactNumber={200} />
-      <PropsNode><span>node from App.js</span></PropsNode> */}
-      {/* <R024_ReactState reactString={'react'} />
-      <R025_SetState />
-      <R032_Fragments />
-      <R033_ReturnMap /> */}
-      {/* <R066_onClick/>
-      <R067_onChange/>
-      <R068_onMouseMove/>
-      <R069_onMouseOver/>
-      <R070_onMouseOut/>
-      <R071_Onkey/>
-      <R072_onSubmit/> */}
-      <R061_AxiosGet/>
-      <R062_AxiosPost/>
+      <TestComponent />
     </div>
   )
 }
